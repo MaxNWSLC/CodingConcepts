@@ -34,18 +34,18 @@ namespace CodingConcepts
             this.encapsulationBtn = new System.Windows.Forms.Button();
             this.abstractionBtn = new System.Windows.Forms.Button();
             this.methodsBtn = new System.Windows.Forms.Button();
+            this.fieldsBtn = new System.Windows.Forms.Button();
             this.classesBtn = new System.Windows.Forms.Button();
             this.OOP_Button = new System.Windows.Forms.Button();
             this.CCC_Button = new System.Windows.Forms.Button();
             this.interfacesBtn = new System.Windows.Forms.Button();
             this.objectsBtn = new System.Windows.Forms.Button();
-            this.fieldsBtn = new System.Windows.Forms.Button();
             this.iterationBtn = new System.Windows.Forms.Button();
             this.sequencesBtn = new System.Windows.Forms.Button();
             this.selectionBtn = new System.Windows.Forms.Button();
-            this.dataBtn = new System.Windows.Forms.Button();
             this.propertiesBtn = new System.Windows.Forms.Button();
             this.inheritanceBtn = new System.Windows.Forms.Button();
+            this.dataBtn = new System.Windows.Forms.Button();
             this.infoLinkLabel = new System.Windows.Forms.LinkLabel();
             this.infoLabel = new System.Windows.Forms.Label();
             this.titleLabel = new System.Windows.Forms.Label();
@@ -70,18 +70,18 @@ namespace CodingConcepts
             this.splitContainer1.Panel1.Controls.Add(this.encapsulationBtn);
             this.splitContainer1.Panel1.Controls.Add(this.abstractionBtn);
             this.splitContainer1.Panel1.Controls.Add(this.methodsBtn);
+            this.splitContainer1.Panel1.Controls.Add(this.fieldsBtn);
             this.splitContainer1.Panel1.Controls.Add(this.classesBtn);
             this.splitContainer1.Panel1.Controls.Add(this.OOP_Button);
             this.splitContainer1.Panel1.Controls.Add(this.CCC_Button);
             this.splitContainer1.Panel1.Controls.Add(this.interfacesBtn);
             this.splitContainer1.Panel1.Controls.Add(this.objectsBtn);
-            this.splitContainer1.Panel1.Controls.Add(this.fieldsBtn);
             this.splitContainer1.Panel1.Controls.Add(this.iterationBtn);
             this.splitContainer1.Panel1.Controls.Add(this.sequencesBtn);
             this.splitContainer1.Panel1.Controls.Add(this.selectionBtn);
-            this.splitContainer1.Panel1.Controls.Add(this.dataBtn);
             this.splitContainer1.Panel1.Controls.Add(this.propertiesBtn);
             this.splitContainer1.Panel1.Controls.Add(this.inheritanceBtn);
+            this.splitContainer1.Panel1.Controls.Add(this.dataBtn);
             this.splitContainer1.Panel1.Cursor = System.Windows.Forms.Cursors.Default;
             // 
             // splitContainer1.Panel2
@@ -147,11 +147,24 @@ namespace CodingConcepts
             this.methodsBtn.Visible = false;
             this.methodsBtn.Click += new System.EventHandler(this.methodsBtn_Click);
             // 
+            // fieldsBtn
+            // 
+            this.fieldsBtn.BackColor = System.Drawing.Color.Gold;
+            this.fieldsBtn.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.fieldsBtn.Location = new System.Drawing.Point(44, 359);
+            this.fieldsBtn.Name = "fieldsBtn";
+            this.fieldsBtn.Size = new System.Drawing.Size(122, 30);
+            this.fieldsBtn.TabIndex = 9;
+            this.fieldsBtn.Text = "Fields";
+            this.fieldsBtn.UseVisualStyleBackColor = false;
+            this.fieldsBtn.Visible = false;
+            this.fieldsBtn.Click += new System.EventHandler(this.fieldsBtn_Click);
+            // 
             // classesBtn
             // 
             this.classesBtn.BackColor = System.Drawing.Color.Gold;
             this.classesBtn.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.classesBtn.Location = new System.Drawing.Point(43, 359);
+            this.classesBtn.Location = new System.Drawing.Point(44, 211);
             this.classesBtn.Name = "classesBtn";
             this.classesBtn.Size = new System.Drawing.Size(122, 30);
             this.classesBtn.TabIndex = 11;
@@ -201,7 +214,7 @@ namespace CodingConcepts
             // 
             this.objectsBtn.BackColor = System.Drawing.Color.Gold;
             this.objectsBtn.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.objectsBtn.Location = new System.Drawing.Point(44, 211);
+            this.objectsBtn.Location = new System.Drawing.Point(44, 260);
             this.objectsBtn.Name = "objectsBtn";
             this.objectsBtn.Size = new System.Drawing.Size(122, 30);
             this.objectsBtn.TabIndex = 8;
@@ -209,19 +222,6 @@ namespace CodingConcepts
             this.objectsBtn.UseVisualStyleBackColor = false;
             this.objectsBtn.Visible = false;
             this.objectsBtn.Click += new System.EventHandler(this.objectsBtn_Click);
-            // 
-            // fieldsBtn
-            // 
-            this.fieldsBtn.BackColor = System.Drawing.Color.Gold;
-            this.fieldsBtn.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.fieldsBtn.Location = new System.Drawing.Point(43, 260);
-            this.fieldsBtn.Name = "fieldsBtn";
-            this.fieldsBtn.Size = new System.Drawing.Size(122, 30);
-            this.fieldsBtn.TabIndex = 9;
-            this.fieldsBtn.Text = "Fields";
-            this.fieldsBtn.UseVisualStyleBackColor = false;
-            this.fieldsBtn.Visible = false;
-            this.fieldsBtn.Click += new System.EventHandler(this.fieldsBtn_Click);
             // 
             // iterationBtn
             // 
@@ -262,19 +262,6 @@ namespace CodingConcepts
             this.selectionBtn.Visible = false;
             this.selectionBtn.Click += new System.EventHandler(this.selectionBtn_Click);
             // 
-            // dataBtn
-            // 
-            this.dataBtn.BackColor = System.Drawing.Color.Gold;
-            this.dataBtn.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dataBtn.Location = new System.Drawing.Point(44, 359);
-            this.dataBtn.Name = "dataBtn";
-            this.dataBtn.Size = new System.Drawing.Size(122, 30);
-            this.dataBtn.TabIndex = 6;
-            this.dataBtn.Text = "Data";
-            this.dataBtn.UseVisualStyleBackColor = false;
-            this.dataBtn.Visible = false;
-            this.dataBtn.Click += new System.EventHandler(this.dataBtn_Click);
-            // 
             // propertiesBtn
             // 
             this.propertiesBtn.BackColor = System.Drawing.Color.Gold;
@@ -301,6 +288,19 @@ namespace CodingConcepts
             this.inheritanceBtn.Visible = false;
             this.inheritanceBtn.Click += new System.EventHandler(this.inheritanceBtn_Click);
             // 
+            // dataBtn
+            // 
+            this.dataBtn.BackColor = System.Drawing.Color.Gold;
+            this.dataBtn.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dataBtn.Location = new System.Drawing.Point(44, 359);
+            this.dataBtn.Name = "dataBtn";
+            this.dataBtn.Size = new System.Drawing.Size(122, 30);
+            this.dataBtn.TabIndex = 6;
+            this.dataBtn.Text = "Data";
+            this.dataBtn.UseVisualStyleBackColor = false;
+            this.dataBtn.Visible = false;
+            this.dataBtn.Click += new System.EventHandler(this.dataBtn_Click);
+            // 
             // infoLinkLabel
             // 
             this.infoLinkLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -326,7 +326,7 @@ namespace CodingConcepts
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.titleLabel.Location = new System.Drawing.Point(223, 26);
+            this.titleLabel.Location = new System.Drawing.Point(120, 26);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(75, 26);
             this.titleLabel.TabIndex = 0;
